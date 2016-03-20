@@ -1,0 +1,30 @@
+{
+name: "socialharvest",
+version: "1.0.0",
+description: "Social Harvest Desktop App",
+main: "main.js",
+scripts: {
+start: "electron main.js"
+},
+repository: {
+type: "git",
+url: "git+https://github.com/SocialHarvest/socialharvest.git"
+},
+keywords: [
+"SocialHarvest",
+"social media",
+"analytics",
+"twitter",
+"facebook",
+"instagram"
+],
+author: "Tom Maiaroto",
+license: "GPLv3",
+bugs: {
+url: "https://github.com/SocialHarvest/socialharvest/issues"
+},
+homepage: "https://github.com/SocialHarvest/socialharvest#readme",
+devDependencies: {
+electron-prebuilt: "^0.36.0"
+}
+}
